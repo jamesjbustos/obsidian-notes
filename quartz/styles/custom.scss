@@ -1,3 +1,32 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Theme-specific logo display
+[saved-theme="light"] {
+  --light-mode-only: block;
+  --dark-mode-only: none;
+}
+
+[saved-theme="dark"] {
+  --light-mode-only: none;
+  --dark-mode-only: block;
+}
+
+// Add smooth transition and prevent interaction
+.light-mode-logo,
+.dark-mode-logo {
+  transition: opacity 0.3s ease;
+  pointer-events: none; // makes SVG non-clickable
+  margin: 0 auto; // helps with centering
+  display: block; // ensures margin auto works
+}
+
+// Ensure the container centers its content
+.logo-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
