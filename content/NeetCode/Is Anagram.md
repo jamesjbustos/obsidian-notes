@@ -42,6 +42,4 @@ class Solution:
 #### Complexity Analysis
 
 - Time Complexity: $O(N)$
-- Space Complexity: $O(1)$ - Since we can only have characters as input, the worst case scenario for the number of unique characters would be 26. 
-
----
+- Space Complexity: $O(1)$ - Since we can only have characters as input, the worst case scenario for the number of unique characters would be 26.
