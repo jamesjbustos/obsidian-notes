@@ -73,7 +73,7 @@ class Solution:
 
 #### Complexity Analysis
 
-- Time Complexity: $O(m)$ $\text{m is the sum of all strings and n is the number of stirngs}$
+- Time Complexity: $O(m)$ m is the sum of all strings and n is the number of stirngs
 - Space Complexity: $O(1)$
 
 
