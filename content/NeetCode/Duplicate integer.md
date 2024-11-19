@@ -1,5 +1,8 @@
-Date: 11-10-24
-
+---
+date: 11-10-24
+tags:
+  - arrays-hashing
+---
 ---
 ### Problem
 
