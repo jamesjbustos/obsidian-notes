@@ -1,4 +1,6 @@
 ---
+title: Home
+description: Notes from James
 date: False
 enableToc: False
 ---
@@ -7,7 +9,7 @@ enableToc: False
   <img src="/static/mkspw.svg" alt="Logo" width="576" height="320" />
 </div> -->
 
-<div style="text-align: center; margin-bottom: 2rem;">
+<div style="text-align: center; margin: 0 0 2rem 0; padding: 0;">
   <img 
     src="/static/mkspw-light.svg" 
     alt="Logo" 

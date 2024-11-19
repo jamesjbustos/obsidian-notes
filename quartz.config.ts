@@ -9,7 +9,7 @@ import { QuartzConfig } from "./quartz/cfg"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "James",
+    pageTitle: "●",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

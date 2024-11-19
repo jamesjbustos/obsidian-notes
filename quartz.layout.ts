@@ -1,5 +1,6 @@
-import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+
+import { PageLayout, SharedLayout } from "./quartz/cfg"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -8,8 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [Component.MobileOnly(Component.Explorer())],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/jamesjbustos",
+      "𝕏": "https://x.com/jamesjbustos",
     },
   }),
 }
@@ -20,7 +21,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     (props) => (props.fileData.slug === "index" ? null : Component.ArticleTitle()(props)),
     (props) => (props.fileData.slug === "index" ? null : Component.ContentMeta()(props)),
-    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
@@ -29,11 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
