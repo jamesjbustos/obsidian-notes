@@ -37,8 +37,9 @@ Output: true
 	- `key = (r/3, c/3)`
 - We can use a hash map to find duplicates and reduce our time complexity. 
 - To find duplicates in the row and columns we can simply just iterate over them using a hash map as well
+  
+![[attachments/Valid Sudoku 2024-11-20 13.13.57.excalidraw.svg]]
 
-![[attachments/Valid Sudoku 2024-11-20 13.13.57.excalidraw.svg | center]]
 #### Implementation
 
 ```python
