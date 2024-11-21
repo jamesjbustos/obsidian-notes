@@ -21,7 +21,7 @@ Output: 4
 
 #### Visualize the problem
 
-![[attachments/Longest Consecutive Sequence 2024-11-21 13.06.00.excalidraw.svg | center | 500]]
+![[Longest Consecutive Sequence 2024-11-21 13.06.00.excalidraw.svg | center | 500]]
 
 #### Solve without code
 
