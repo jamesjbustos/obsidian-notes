@@ -1,6 +1,7 @@
 ---
 date: 11-21-24
 tags:
+  - arrays-hashing
 ---
 ---
 ### Problem
