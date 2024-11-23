@@ -22,7 +22,7 @@ Output: [[-1,-1,2],[-1,0,1]]
 
 #### Visualize the problem
 
-![[3Sum 2024-11-23 13.52.27.excalidraw.svg |500]]
+![[3Sum 2024-11-23 13.52.27.excalidraw.svg |500 | center]]
 #### Solve without code
 
 - Sort the values
