@@ -9,7 +9,7 @@ tags:
 - We're given an input array containing `height` values where `heights[i]` represent the height of the $i^{th}$ bar.
 - Our function can choose any two bars to form a container. Return the maximum amount of water a container can store.
   
-  ![[attachments/Pasted image 20241124130439.webp]]
+  ![[Pasted image 20241124130439.webp]]
 
 #### Example
 
