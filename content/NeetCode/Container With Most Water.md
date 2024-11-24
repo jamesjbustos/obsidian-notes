@@ -24,7 +24,7 @@ Output: 36
 
 #### Visualize the problem
 
-![[attachments/Container With Most Water 2024-11-24 13.07.23.excalidraw.svg | center | 500]]
+![[Container With Most Water 2024-11-24 13.07.23.excalidraw.svg | center | 500]]
 #### Solve without code
 
 - Look at left and right of input
