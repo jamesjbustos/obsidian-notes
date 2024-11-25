@@ -24,7 +24,7 @@ Output: 9
 
 #### Visualize the problem
 
-![[Trapping Rain Water 2024-11-24 14.18.07.excalidraw | 500 | center]]
+![[Trapping Rain Water 2024-11-24 14.18.07.excalidraw.svg| 500 | center]]
 #### Solve without code
 
 - Look left and right
