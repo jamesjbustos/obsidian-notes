@@ -1,3 +1,25 @@
+
+**
+### Problem-Solving Framework: VIBES
+
+1. **Visualize**:  
+   - Spot constraints, patterns, and end goal.
+
+2. **Inspect**:  
+   - Check counts, relationships, and invariants.
+
+3. **Break Down**:  
+   - Simulate examples, find edge cases.
+
+4. **Execute**:  
+   - Plan steps logically, then code.
+
+5. **Simplify**:  
+   - Start with the easiest solution first, optimize later.
+
+**
+
+
 - **List are mutable, strings are not.** 
 	- If you need to create a new string it would be wise to use a list and simply join the values at the end
 	- if using strings it can sometimes cause a time complexity of $O(N^2)$ . Therefore its wise to not use it. 
