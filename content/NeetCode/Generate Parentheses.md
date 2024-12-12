@@ -21,8 +21,8 @@ Output: ["((()))","(()())","(())()","()(())","()()()"]
 
 #### Visualize the problem
 
-![[Generate Parentheses 2024-12-11 21.59.17.excalidraw]]
-![[Generate Parentheses 2024-12-12 00.14.44.excalidraw]]
+![[Generate Parentheses 2024-12-11 21.59.17.excalidraw.svg | 500 | center]]
+![[Generate Parentheses 2024-12-12 00.14.44.excalidraw.svg | center | 500]]
 #### Implementation
 
 ```python
