@@ -29,13 +29,13 @@ Output: [1,4,1,2,1,0,0]
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         res = [0] * len(temperatures)
-        stack = []  # pair: [temp, index]
+        stack = [] #pair: [temp, index]
 
-        for i, t in enumerate(temperatures):
-            while stack and t > stack[-1][0]:
-                stackT, stackInd = stack.pop()
-                res[stackInd] = i - stackInd
-            stack.append((t, i))
+        for idx, temp in enumerate(temperatures):
+            while stack and temp > stack[-1][0]:
+                currentTemp, currentIdx = stack.pop()
+                res[currentIdx] = idx - currentIdx
+            stack.append((temp, idx))
         return res
 ```
 
